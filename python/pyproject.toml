@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "al-maghriz"
+version = "1.0.0"
+description = "Python wrapper for the Al-Maghriz prediction core shared library."
+readme = "../README.md"
+requires-python = ">=3.9"
+license = { text = "Proprietary" }
+keywords = ["trading", "predictions", "shared-library", "ctypes"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Financial and Insurance Industry",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Operating System :: POSIX :: Linux",
+    "License :: Other/Proprietary License",
+]
+
+[tool.setuptools]
+py-modules = ["al_maghriz"]

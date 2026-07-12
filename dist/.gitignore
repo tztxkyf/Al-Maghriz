@@ -1,0 +1,4 @@
+# Ignore everything in dist except the shipped shared library.
+*
+!libal_maghriz.so
+!.gitignore

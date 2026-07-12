@@ -1,0 +1,14 @@
+library_path: ../dist/libal_maghriz.so
+token_path: ../certificates/test_20260901.pem
+user: test
+password: test
+rolling_length: 300
+parameters:
+  A: 2
+  B: 4
+  C: 0
+  D: 1
+  E: 0
+  F: 0
+  G: 2
+  H: 2

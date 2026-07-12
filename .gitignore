@@ -1,0 +1,38 @@
+# Private strategy implementation
+private_core/
+private_cert_tools/
+
+# Keys
+*.key
+*.priv
+keys/
+
+# Build products
+build/
+*.so
+*.a
+*.o
+
+# Allow the shipped shared library to be tracked.
+!dist/libal_maghriz.so
+
+# Local data
+examples/*.csv
+!examples/eth_hourly.csv
+!examples/eurusd_hourly.csv
+!examples/pdd_daily.csv
+data/
+
+# Python
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+certificates/corrupted.pem
+private_doc/
+*.private.md
+private_scripts/
+*.diagnose.py
